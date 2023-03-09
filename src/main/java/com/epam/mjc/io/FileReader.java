@@ -53,7 +53,7 @@ public class FileReader {
         obj.setEmail(email);
         obj.setPhone(intPhone);
         //System.out.println(obj.toString());
-        return new Profile(file);
+        return new Profile();
     }
 }
 
