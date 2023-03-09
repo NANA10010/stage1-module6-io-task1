@@ -7,10 +7,8 @@ import java.io.IOException;
 
 public class FileReader {
     public static void main(String[] args) throws IOException {
-        File f = new File("src/main/resources/Profile.txt");
-        getDataFromFile(f);
     }
-    public  Profile getDataFromFile(File file) {
+    public  Profile getDataFromFile(File file) throws IOException {
         //file = new File("src/main/resources/Profile.txt");
         String name = "" ;
         String age = "";
