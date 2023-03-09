@@ -47,13 +47,12 @@ public class FileReader {
         Integer intAge = Integer.parseInt(age);
         long intPhone = Integer.parseInt(phone);
 
-        Profile obj = new Profile(file);
+        Profile obj = new Profile(name,intAge,email,intPhone);
         obj.setName(name);
         obj.setAge(intAge);
         obj.setEmail(email);
         obj.setPhone(intPhone);
-        //System.out.println(obj.toString());
-         return new Profile(name,intAge,email,intPhone);
+        return obj;
     }
 }
 
