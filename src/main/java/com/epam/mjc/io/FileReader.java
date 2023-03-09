@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class FileReader {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
     }
     public  Profile getDataFromFile(File file) throws IOException {
         //file = new File("src/main/resources/Profile.txt");
@@ -37,9 +37,7 @@ public class FileReader {
                 cases--;
             }
         }
-        catch (FileNotFoundException e){
-            e.printStackTrace();
-        }
+
         catch (IOException e){
             e.printStackTrace();
         }
